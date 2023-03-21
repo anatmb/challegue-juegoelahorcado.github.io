@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Juego el ahorcado</title>
+</head>
+<body>
+    <!---LOGO-->
+    <div class="container">
+        <nav class="menu">
+            <img class="imagen" src="img/Vector.png" alt="logo">
+        </nav>
+        <div class="containerjuego">
+            <div class="hombreahorcado">
+                <img id="imagenjuego" src="img/img0.png" alt="imagen ahorcado" />
+            </div>
+            <div class="adivinado">
+                <p id="palabra-a-adivinar"></p>
+            </div>
+            <div class="errado">
+                <p id="letras_erradas"></p>
+            </div>
+            <div class="botonesjuego">
+                <button id="ajugar">Nuevo juego</button>
+                <button onclick="location.href='index.html'">Desistir</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <h2 class="footer">Elaborado por: Anadeska Meléndez</h2>
+    </footer>
+    <script type="text/javascript" src="juego.js"></script>
+</body>
+</html>
